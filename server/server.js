@@ -40,9 +40,13 @@ app.use('/api/messages/audio', audioMessageRoutes);
 app.use('/api/feedback', feedbackRoutes);
 app.use('/api/admin', adminRoutes);
 
-// Health check
+// Root + health check (handy for Vercel / uptime checks)
+app.get('/', (_req, res) => {
+  res.json({ status: 'ok', endpoint: 'root', time: new Date().toISOString() });
+});
+
 app.get('/health', (_req, res) => {
-  res.json({ status: 'ok', time: new Date().toISOString() });
+  res.json({ status: 'ok', endpoint: 'health', time: new Date().toISOString() });
 });
 
 // Error handler
