@@ -1,0 +1,26 @@
+:root {
+  --font-display: 'Playfair Display', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    serif;
+  --font-body: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --blush-pink: #ffb6c1;
+  --peach: #ffdab9;
+  --lavender: #e6e6fa;
+
+  --bg-gradient: radial-gradient(circle at top, #ffe4ec 0, #ffeef6 45%, #ffffff 100%);
+  --card-bg: rgba(255, 255, 255, 0.96);
+  --card-border-radius: 28px;
+
+  --text-main: #3a1b47;
+  --text-soft: #76506f;
+  --text-subtle: #a37ca9;
+
+  --shadow-soft: 0 18px 45px rgba(76, 34, 91, 0.16);
+  --shadow-cta: 0 14px 32px rgba(255, 137, 171, 0.4);
+
+  --accent-rose: #ff99b8;
+  --accent-rose-soft: #ffc1cc;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Poppins:wght@300;400;500&display=swap');
+

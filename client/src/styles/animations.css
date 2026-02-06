@@ -1,0 +1,140 @@
+.fade-in {
+  animation: fadeInSoft 600ms ease-out forwards;
+}
+
+.heart-burst {
+  animation: heartBurst 800ms ease-out forwards;
+}
+
+.soft-pulse {
+  animation: softPulse 1600ms ease-in-out infinite;
+}
+
+.hearts-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.floating-heart {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: #ff8fb3;
+  transform: rotate(45deg);
+  opacity: 0.18;
+}
+
+.floating-heart::before,
+.floating-heart::after {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: #ff8fb3;
+  border-radius: 50%;
+}
+
+.floating-heart::before {
+  top: -9px;
+  left: 0;
+}
+
+.floating-heart::after {
+  left: -9px;
+  top: 0;
+}
+
+.floating-heart-1 {
+  left: 8%;
+  bottom: -24px;
+  animation: floatUp 12s infinite ease-in-out;
+}
+.floating-heart-2 {
+  left: 22%;
+  bottom: -32px;
+  animation: floatUp 13s infinite ease-in-out 2s;
+}
+.floating-heart-3 {
+  left: 40%;
+  bottom: -28px;
+  animation: floatUp 11s infinite ease-in-out 4s;
+}
+.floating-heart-4 {
+  left: 58%;
+  bottom: -36px;
+  animation: floatUp 14s infinite ease-in-out 1.5s;
+}
+.floating-heart-5 {
+  left: 72%;
+  bottom: -30px;
+  animation: floatUp 12s infinite ease-in-out 3.5s;
+}
+.floating-heart-6 {
+  left: 86%;
+  bottom: -40px;
+  animation: floatUp 13s infinite ease-in-out 5s;
+}
+.floating-heart-7 {
+  left: 15%;
+  bottom: -35px;
+  animation: floatUp 15s infinite ease-in-out 6.5s;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0) rotate(45deg);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.22;
+  }
+  45% {
+    opacity: 0.35;
+  }
+  100% {
+    transform: translateY(-260px) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInSoft {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heartBurst {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  40% {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes softPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 137, 171, 0.24);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 14px rgba(255, 137, 171, 0);
+  }
+}
+
