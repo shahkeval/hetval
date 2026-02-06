@@ -21,7 +21,7 @@ const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/valent
 // Middlewares
 app.use(
   cors({
-    origin: CLIENT_URL,
+    origin: '*',
     credentials: true,
   })
 );
