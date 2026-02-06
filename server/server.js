@@ -9,6 +9,7 @@ const messageRoutes = require('./routes/messages');
 const audioMessageRoutes = require('./routes/audioMessages');
 const feedbackRoutes = require('./routes/feedback');
 const adminRoutes = require('./routes/admin');
+const cronRoutes = require('./routes/cron');
 const { startCronJobs } = require('./cron/startCronJobs');
 
 const app = express();
@@ -39,6 +40,7 @@ app.use('/api/messages', messageRoutes);
 app.use('/api/messages/audio', audioMessageRoutes);
 app.use('/api/feedback', feedbackRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/cron', cronRoutes);
 
 // Root + health check (handy for Vercel / uptime checks)
 app.get('/', (_req, res) => {
