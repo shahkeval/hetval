@@ -412,6 +412,157 @@ I loveeeeeeeee youuuuuuuu jaduuuuuuuu ❤️❤️❤️❤️❤️❤️❤️
     animationStyle: "floating-hearts",
   },
   {
+    dayName: "Kiss Day",
+    slug: "kiss-day",
+    month: 2,
+    dayOfMonth: 13,
+    theme: "affection",
+    palette: [PALETTE.blushPink, PALETTE.lavender],
+    emailSubject: "That first kiss still lives in me 💋🔥❤️",
+    messageText: `
+  Good morning, bachaaaaaa 💋❤️
+  
+  Did you sleep peacefully?
+  Or did your heart wander back to us… like mine did? 🌙
+  
+  Today is Kiss Day.
+  But for me,
+  a kiss isn’t just a moment.
+  
+  It’s a memory that stays under the skin.
+  It’s a spark that never really fades.
+  It’s two souls standing so close
+  that silence starts speaking for them.
+  
+  And I still remember our first kiss.
+  
+  That day.
+  At my house.
+  I were black checks shirt
+  You were in a white t-shirt and jeans.
+  You sitting on my lap.
+  So close I could feel your breath.
+  So close I could hear your heartbeat.
+  
+  We didn’t say anything.
+  We didn’t need to.
+  
+  Our eyes were already confessing.
+  
+  There was tension.
+  Not awkward.
+  Not rushed.
+  Just heavy with wanting.
+  
+  Both of us pretending to be calm,
+  while our hearts were racing.
+  
+  “Kabhi kabhi lafzon ki zarurat nahi hoti,
+  nazrein hi sab keh deti hain.”
+  
+  I remember the way you looked at me.
+  That softness.
+  That nervous courage.
+  
+  And then you leaned in.
+  
+  You.
+  
+  Not slowly.
+  Not unsure.
+  
+  But gently.
+  Confidently.
+  
+  And when your lips touched mine,
+  something shifted inside me.
+  
+  Time slowed.
+  Breathing changed.
+  Everything else disappeared.
+  
+  It wasn’t just a kiss.
+  
+  It was warmth.
+  It was surrender.
+  It was trust.
+  
+  That moment wasn’t about passion.
+  It was about connection.
+  
+  It felt like two worlds quietly meeting.
+  
+  “Tumhari nazdeekiyan sirf jism tak nahi,
+  seedha dil tak utar jaati hain.”
+  
+  Even now,
+  when I think about it,
+  I don’t just remember it.
+  
+  I feel it.
+  
+  The way your hands held me.
+  The way we forgot the world.
+  The way we melted into that closeness
+  like we had been waiting for it longer than we knew.
+  
+  That kiss told me something.
+  
+  It told me you were not just someone I liked.
+  
+  You were someone I felt deeply.
+  Someone my heart had already chosen.
+  
+  A kiss, for me,
+  is not hunger.
+  
+  It is belonging.
+  
+  It is resting your forehead against mine.
+  It is breathing together.
+  It is staying close even after the kiss ends.
+  
+  If I could kiss you today,
+  it wouldn’t be rushed.
+  
+  It would be slow.
+  Intentional.
+  Full of meaning.
+  
+  The kind of kiss
+  that makes you close your eyes
+  not because you have to,
+  but because you feel safe.
+  
+  “Tum mere liye sirf ek pal nahi ho,
+  tum woh ehsaas ho jo har pal saath rehta hai.”
+
+  If I could send you something today,
+  it would be that same feeling again.
+
+  A slow forehead kiss 💋
+  that says “I respect you.”
+
+  A soft cheek kiss 💕
+  that says “I adore you.”
+
+  A gentle kiss filled with warmth,
+  the kind that says,
+  “I’m not going anywhere.”
+  
+  Happy Kiss Day,
+  mari jaduuuuuuuuuuuuuuuuu 💋❤️
+  
+  And if I ever look at you the same way again,
+  don’t act surprised.
+  
+  You know exactly what that look means now 🔥💞
+
+  I loveeeeeeeee youuuuuuuu bachaaaaaaaaaaaaaaaa ❤️❤️❤️❤️❤️❤️❤️
+    `,
+    animationStyle: "soft-pulse",
+  },  
+  {
     dayName: "Valentine’s Day",
     slug: "valentines-day",
     month: 2,
